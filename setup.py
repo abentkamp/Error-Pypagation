@@ -9,16 +9,17 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "errorpypagation",
+    name = "errorpro",
     version = "0.0.1",
     author = "Lukas Bentkamp",
-    author_email = "",
-    description = ("calculates physical quantities from data including units and uncertainty propagation."),
+    author_email = "lukas.bentkamp@mailbox.org",
+    description = ("calculates physical quantities from data including units and error propagation."),
     license = "BSD",
     keywords = "error uncertainty propagation units physics",
-    url = "http://github.com/lukasbentkamp/Error-Pypagation",
-    packages=['errorpypagation'],
-    long_description=read('README.md'),
+    url = "http://github.com/lukasbentkamp/ErrorPro",
+    download_url = 'https://github.com/lukasbentkamp/ErrorPro/tarball/0.0.1',
+    packages=['errorpro'],
+    long_description=read('README.rst'),
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
